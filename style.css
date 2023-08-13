@@ -1,0 +1,55 @@
+h1
+    {
+         color:rgb(131, 16, 39); 
+         margin: 30px;
+    }
+
+ 
+   
+
+.header
+    {
+        background-color: rgba(224, 53, 153, 0.616);
+        display: flex;
+        justify-content:left;
+    }
+
+.grid
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+a:link{
+    color: rgb(145, 14, 145);
+}
+
+a:visited{
+    color:rgb(245, 76, 76);
+}
+
+.item{
+    position: relative;
+    float: left;
+    margin:20px
+   
+}
+
+.item p{
+    position: absolute;
+    top: 90%;
+    bottom: 10%;
+    left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: oblique;
+}
+
+.item :hover{
+    opacity: 0.5;
+}
+
+.item p :hover{
+    opacity: 1;
+}
